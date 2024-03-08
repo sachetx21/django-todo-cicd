@@ -2,6 +2,6 @@ version : "3.3"
 services :
     image: "django-todo-cicd-web:latest"
      ports :
-         - "8000:8000"
+         - "8001:8000"
      volumes:
       - ./volume/store_data/db.sqlite3:/data/db.sqlite3

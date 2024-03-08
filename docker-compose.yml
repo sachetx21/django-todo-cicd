@@ -1,5 +1,7 @@
 version : "3.3"
+
 services :
+  web:
     image: "django-todo-cicd-web:latest"
      ports :
          - "8001:8000"
